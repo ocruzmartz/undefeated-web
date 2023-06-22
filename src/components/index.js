@@ -1,4 +1,4 @@
-import Navbar from "./navbar";
+import Navbar from "./Navbar";
 import GetStarted from "./GetStarted";
 import About from "./About";
 import Welcome from "./Welcome";
