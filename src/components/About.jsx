@@ -7,7 +7,7 @@ const About = () => {
       <div className="absolute inset-0 bg-black opacity-75 z-20"></div>
       <img src={jungle} alt="jungle" className="w-full blur-sm " />
 
-      <div className="absolute flex justify-center items-center inset-0 px-40 z-30">
+      <div className="absolute flex flex-col md:flex-row justify-center items-center text-center md:text-left inset-0 px-10 md:px-40 z-30">
         <div className="w-full flex flex-col justify-center">
           <h1 className="text-[48px] font-bold text-orange-500 mt-5 mb-10">
             About us
