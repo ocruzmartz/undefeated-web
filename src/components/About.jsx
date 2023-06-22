@@ -5,10 +5,14 @@ const About = () => {
     <section className="h-screen relative bg-black overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-b from-black z-10"></div>
       <div className="absolute inset-0 bg-black opacity-75 z-20"></div>
-      <img src={jungle} alt="jungle" className="w-full blur-sm " />
+      <img
+        src={jungle}
+        alt="jungle"
+        className="w-full h-full object-cover blur-sm "
+      />
 
-      <div className="absolute flex flex-col md:flex-row justify-center items-center text-center md:text-left inset-0 px-10 md:px-40 z-30">
-        <div className="w-full flex flex-col justify-center">
+      <div className="absolute flex flex-col lg:flex-row pt-32 items-center text-center  px-10 lg:text-left inset-0 lg:px-36 z-30">
+        <div className="w-full flex flex-col lg:pr-16">
           <h1 className="text-[36px] md:text-[48px] font-bold text-orange-500 md:mt-5 mb-10">
             About us
           </h1>
@@ -21,9 +25,11 @@ const About = () => {
             that prompted us to take the first step.
           </p>
         </div>
-        <div className="w-full flex justify-center items-center mt-5 md:mt-0 md:ml-10">
-          <img src={logo} alt="logo" className="w-[450px] mt-10" />
-        </div>
+        <img
+          src={logo}
+          alt="logo"
+          className="h-full lg:max-w-[450px] object-contain mt-10"
+        />
       </div>
 
       <div className="absolute inset-x-0 bottom-0 h-28 bg-gradient-to-t from-black"></div>
