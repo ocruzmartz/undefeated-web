@@ -7,7 +7,7 @@ const Footer = () => {
         <div></div>
         <div></div>
       </div>
-      <p className="font-semibold">
+      <p className="font-semibold text-[14px] md:xl">
         Copyright &copy; 2023 Undefeated. All rights reserved{" "}
       </p>
     </footer>

@@ -9,10 +9,10 @@ const About = () => {
 
       <div className="absolute flex flex-col md:flex-row justify-center items-center text-center md:text-left inset-0 px-10 md:px-40 z-30">
         <div className="w-full flex flex-col justify-center">
-          <h1 className="text-[48px] font-bold text-orange-500 mt-5 mb-10">
+          <h1 className="text-[36px] md:text-[48px] font-bold text-orange-500 md:mt-5 mb-10">
             About us
           </h1>
-          <p className="text-white text-xl leading-relaxed ">
+          <p className="text-white text-[18px] md:text-xl leading-relaxed ">
             We, a passionate group of creative and curious minds, find ourselves
             united by a common love: video games. From an early age, we marveled
             at the interactive experiences that these virtual worlds offered us.
@@ -21,7 +21,7 @@ const About = () => {
             that prompted us to take the first step.
           </p>
         </div>
-        <div className="w-full flex justify-center items-center ml-10">
+        <div className="w-full flex justify-center items-center mt-5 md:mt-0 md:ml-10">
           <img src={logo} alt="logo" className="w-[450px] mt-10" />
         </div>
       </div>
