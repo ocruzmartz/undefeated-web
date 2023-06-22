@@ -15,7 +15,7 @@ const GetStarted = () => {
         <div className="flex justify-center">
           <button
             type="button"
-            className="px-5 py-3 rounded-full font-bold text-black from-orange-500 bg-gradient-to-r to-yellow-500"
+            className="px-5 py-3 rounded-full mt-2 md:mt-0 font-bold text-black from-orange-500 bg-gradient-to-r to-yellow-500"
           >
             Download now
           </button>
