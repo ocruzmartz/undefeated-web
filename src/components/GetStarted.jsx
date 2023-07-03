@@ -2,7 +2,7 @@ import { volcano } from "../assets";
 
 const GetStarted = () => {
   return (
-    <section className="relative h-[100vh]">
+    <section className="relative h-screen">
       <div className="absolute inset-0 bg-gradient-to-b from-black"></div>
       <img src={volcano} alt="volcano" className="object-cover w-full h-full" />
       <div className="absolute inset-0 flex flex-col items-center justify-center mb-64 md:mb-0 md:items-start md:justify-start p-10 md:px-16 lg:px-36 py-16 md:py-36">
@@ -17,7 +17,13 @@ const GetStarted = () => {
             type="button"
             className="px-5 py-3 rounded-full mt-2 md:mt-0 font-bold text-black from-orange-500 bg-gradient-to-r to-yellow-500"
           >
-            Download now
+            <a
+              href="https://play.google.com/store/apps/details?id=com.undefeatedgame.undefeated"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Download now
+            </a>
           </button>
         </div>
       </div>

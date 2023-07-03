@@ -1,4 +1,10 @@
-import { Navbar, GetStarted, About, Welcome, Footer } from "./components";
+import {
+  Navbar,
+  GetStarted,
+  About,
+  Welcome,
+  Footer,
+} from "./components";
 
 function App() {
   return (
@@ -9,7 +15,6 @@ function App() {
       <GetStarted />
       <Welcome />
       <About />
-      <section className="bg-black h-screen"></section>
       <Footer />
     </div>
   );
